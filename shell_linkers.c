@@ -1,6 +1,6 @@
 /*
  * File: shell_linkers.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -59,7 +59,8 @@ alias_t *add_alias_end(alias_t **head, char *name, char *value)
  * add_node_end - Append a node to the end of a list_t linked list.
  *
  * This adds a new node to the end of an existing list_t linked
- * list. It makes a new node which contains a directory path and appends it to the
+ * list. It makes a new node which contains a directory path
+ * and appends it to the
  * end of the list. If the list is initially empty, it initializes a new list
  * with the given directory path as the first node.
  *

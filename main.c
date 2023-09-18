@@ -1,11 +1,20 @@
 /*
  * File: main.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
 
 #include "shell.h"
+
+int main(void)
+{
+    /*
+       * Initialize and use the global variables in your main function or
+       * other functions as needed
+     */
+
+}
 
 void sig_handler(int sig);
 int execute(char **args, char **front);

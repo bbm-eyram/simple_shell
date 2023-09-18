@@ -1,6 +1,6 @@
 /*
  * File: str_func2.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -15,7 +15,7 @@ int _strncmp(const char *s1, const char *s2, size_t n);
 /**
  * _strchr - Find the first occurrence of a char in a str.
  *
- * This function looks for the first occurrence of the specified char 'c' 
+ * This function looks for the first occurrence of the specified char 'c'
  * within the given string 's'.
  *
  * @s: The str to be searched.
@@ -82,16 +82,16 @@ int _strspn(char *s, char *accept)
  */
 int _strcmp(char *s1, char *s2)
 {
-    while (*s1 && *s2 && *s1 == *s2)
-    {
-        s1++;
-        s2++;
-    }
+	while (*s1 && *s2 && *s1 == *s2)
+	{
+		s1++;
+		s2++;
+	}
 
-    if (*s1 != *s2)
-        return (*s1 - *s2);
+	if (*s1 != *s2)
+		return (*s1 - *s2);
 
-    return (0);
+	return (0);
 }
 
 /**

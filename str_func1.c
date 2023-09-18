@@ -1,6 +1,6 @@
 /*
  * File: str_func1.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -34,7 +34,8 @@ int _strlen(const char *s)
 
 /**
  * _strcpy - Custom str copying function that duplicates the source str
- *           including the null terminator and stores it in the destination buffer.
+ * including the null terminator and stores it in the
+ * destination buffer.
  *
  * @dest: Pointer to the destination buffer where the string should be copied.
  * @src: Pointer to the source str to be duplicated.

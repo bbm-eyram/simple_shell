@@ -1,7 +1,7 @@
 
 /*
  * File: shell_locators.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -12,7 +12,8 @@ char *fill_path_dir(char *path);
 list_t *get_path_dir(char *path);
 
 /**
- * get_location - looks for the executable file path of a particular command in the PATH directories.
+ * get_location - looks for the executable file path of a
+ * particular command in the PATH directories.
  * @command: The command to locate.
  *
  * Returns: If the command is found - the full path to the command.
@@ -57,7 +58,8 @@ char *get_location(char *command)
 }
 
 /**
- * fill_path_dir - Customs utility function to process a colon-separated list of
+ * fill_path_dir - Customs utility function to process a
+ * colon-separated list of
  *                 directories, replacing certain colons with the current
  *                 working directory.
  *
@@ -116,7 +118,8 @@ char *fill_path_dir(char *path)
 /**
  * get_path_dir - Scouts and arranges directories from a colon-separated path.
  *
- * This function takes a colon-separated path as input and extracts each directory,
+ * This function takes a colon-separated path as input
+ * and extracts each directory,
  * organizing them into a linked list for easy access and manipulation.
  *
  * @path: The colon-separated list of directories to process.

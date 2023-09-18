@@ -1,6 +1,6 @@
 /*
  * File: shell-split.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -11,9 +11,11 @@ int count_tokens(char *str, char *delim);
 char **_strtok(char *line, char *delim);
 
 /**
- * token_len - Calculates the length of the first token in a str delimited by a specified char.
+ * token_len - Calculates the length of the first token in a string
+ *	delimited by a specified character.
  *
- * This function looks for a provided str for the initial token, where tokens are separated by a specified delimiter.
+ * This function looks for a provided string for the initial token,
+ *	where tokens are separated by a specified delimiter.
  *
  * @str: The string to search.
  * @delim: The delimiter character.

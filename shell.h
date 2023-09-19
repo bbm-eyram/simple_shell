@@ -12,12 +12,6 @@
  *    - Abigail Nyakoh (Development Team Member)
  */
 
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> master
->>>>>>> f7193899b302ba2c55c43f6be6cd123dfa4db645
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -49,6 +43,7 @@ typedef struct list_node
     char *dir;
     struct list_node *next;
 } list_node_t;
+*/
 
 /**
  * struct builtin_command - Gives structure for builtin commands.

@@ -1,6 +1,6 @@
 /*
  * File: helpers_2.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -12,13 +12,17 @@ ssize_t get_new_len(char *line);
 void logical_ops(char *line, ssize_t *new_len);
 
 /**
- * handle_line - A function to format and pre-process input lines from standard input.
+ * handle_line - A function to format and pre-process input
+ * lines from standard input.
  * @line: Pointer to input line.
  * @read: The length of input line.
  *
- * Description: This function takes a line of text and perform a formatting operation on it.
- *              It inserts spaces to separate semicolons (';'), logical OR ('||'), and logical AND ('&&') operators,
- *              and it replaces '#' with a null terminator ('\0'). The resulting line is stored in a new memory block.
+ * Description: This function takes a line of text and
+ * perform a formatting operation on it.
+ * It inserts spaces to separate semicolons (';'),
+ * logical OR ('||'), and logical AND ('&&') operators,
+ * and it replaces '#' with a null terminator ('\0').
+ * The resulting line is stored in a new memory block.
  */
 void handle_line(char **line, ssize_t read)
 {
@@ -109,9 +113,11 @@ void handle_line(char **line, ssize_t read)
  *
  * Return: The refined length of the harmonious code.
  *
- * Description: This function serves as the virtuoso conductor of code symphonies. It takes a code score
- *              and elegantly trims the dissonant comments denoted by '#' while orchestrating the 
- *              rhythmic beauty of logical operators ';', '||', and '&&&' for a harmonious composition.
+ * Description: This function serves as the virtuoso conductor of
+ * code symphonies. It takes a code score and elegantly trims the
+ * dissonant comments denoted by '#' while orchestrating the
+ * rhythmic beauty of logical operators ';', '||', and
+ * '&&&' for a harmonious composition.
  */
 ssize_t get_new_len(char *line)
 {
@@ -169,11 +175,12 @@ ssize_t get_new_len(char *line)
  * logical_ops – finds and numbers logical operators "||" or "&&" in a line.
  *
  * This function examines a char in a line, along with its neighboring chars,
- * to determine if it forms a logical operator "||" or "&&". It updates the length of
- * the line accordingly.
+ * to determine if it forms a logical operator "||" or "&&".
+ * It updates the length of the line accordingly.
  *
  * @line: A pointer to the char to check within the line.
- * @new_len: A pointer to the length of the line to be updated by this function.
+ * @new_len: A pointer to the length of the
+ *line to be updated by this function.
  */
 void logical_ops(char *line, ssize_t *new_len)
 {

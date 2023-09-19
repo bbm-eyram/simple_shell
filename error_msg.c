@@ -1,6 +1,6 @@
 /*
  * File: err_msgs1.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -51,10 +51,12 @@ char *error_env(char **args)
 }
 
 /**
- * error_1 - Create a custom error message for alias-related errors within the shell.
+ * error_1 - Create a custom error message for
+ * alias-related errors within the shell.
  * @args: Array of args passed to the command.
  *
- * This function dynamically constructs an error message when a specified shell alias is not found.
+ * This function dynamically constructs an error message
+ * when a specified shell alias is not found.
  *
  * Return: A dynamically allocated string containing the error message.
  */
@@ -115,8 +117,10 @@ char *error_2_exit(char **args)
  * @args: An array of args passed to the command.
  *
  * Description:
- * This function is obligated for generating error messages related to the shellby_cd command.
- * It creates informative error messages based on the given args and returns them as
+ * This function is obligated for generating error messages
+ * related to the shellby_cd command.
+ * to creates informative error messages based
+ * on the given args and returns them as
  * dynamically allocated strings.
  *
  * Parameters:
@@ -159,14 +163,16 @@ char *error_2_cd(char **args)
 }
 
 /**
- * generate_syntax_error_message - Constructs an error message for handling syntax errors.
+ * generate_syntax_error_message - Constructs an error message
+ * for handling syntax errors.
  *
  * This function takes an array of command args and makes an informative error
  * message for syntax errors faced during command execution.
  *
  * @args: An array of command args.
  *
- * Return: A dynamically allocated error message string or NULL on memory allocation failure.
+ * Return: A dynamically allocated error message
+ * string or NULL on memory allocation failure.
  */
 char *error_2_syntax(char **args)
 {

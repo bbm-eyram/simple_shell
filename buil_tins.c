@@ -1,6 +1,6 @@
 /*
  * File: builtin.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -43,20 +43,22 @@ int (*get_builtin(char *command))(char **args, char **front)
 
 /**
  * shellby_exit - Safely terminates the shellby shell.
- * 
+ *
  * @args: An array of args that include an exit status.
  * @front: A double pointer to the start of args.
- * 
+ *
  * Return Values:
  *    - If no arguments are provided, returns -3 to signal shell termination.
  *    - If an invalid exit value is provided, returns -2.
  *    - Otherwise, exits the shellby shell with the status value.
- * 
+ *
  * Description:
- *    The `shellby_exit` function is obligated for terminating the shellby shell
+ *    The `shellby_exit` function is obligated for
+ * terminating the shellby shell
  *    while handling different exit scenarios. If no args are provided, it
  *    returns -3 to show a clean shell termination. If an exit status is given,
- *    it checks the validity of the status and exits the shell accordingly. Invalid
+ * it checks the validity of the status and
+ * exits the shell accordingly. Invalid
  *    statuses result in a return value of -2. The function also manage memory
  *    cleanup and make sure of a safe shutdown of the shell.
  */
@@ -180,10 +182,12 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * shellby_help - gives assistance and usage instructions for Shellby's built-in commands.
+ * shellby_help - gives assistance and usage instructions for
+ * Shellby's built-in commands.
  *
  * This function is to display useful info and usage instructions
- * for Shellby's built-in commands, based on the provided command name in the args.
+ * for Shellby's built-in commands,
+ * based on the provided command name in the args.
  *
  * @args: An array of args, with the command name to give help.
  * @front: A pointer to the start of the args array (unused).
@@ -203,7 +207,7 @@ int shellby_help(char **args, char __attribute__((__unused__)) **front)
 	else if (_strcmp(args[0], "env") == 0)
 		help_env();
 	else if (_strcmp(args[0], "setenv") == 0)
-	        my_shell_setenv();
+		my_shell_setenv();
 	else if (_strcmp(args[0], "unsetenv") == 0)
 		my_shell_unsetenv();
 	else if (_strcmp(args[0], "help") == 0)

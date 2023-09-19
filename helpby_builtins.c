@@ -7,10 +7,13 @@ void help_exit(void);
 void help_help(void);
 
 /**
- * help_all - Display a comprehensive list of built-in commands for Shellby shell.
+ * help_all - Display a comprehensive list of built-in
+ * commands for Shellby shell.
  *
- * This function is to educate users about the built-in commands available in the
- * Shellby shell. It prints out a list of these commands and offers guidance on how
+ * This function is to educate users about the built-in
+ * commands available in the
+ * Shellby shell. It prints out a list of these
+ * commands and offers guidance on how
  * to access more information about each command when using  'help' command.
  *
  * Overview:
@@ -24,7 +27,7 @@ void help_help(void);
  * Usage:
  *   - Type 'help' to view this list of built-in commands.
  *   - For detailed info on a particular command, use 'help <command>'.
- */    
+ */
 void help_all(void)
 {
 	char *msg = "Shellby\nThese shell commands are defined internally.\n";
@@ -89,8 +92,10 @@ void help_cd(void)
 /**
  * help_exit - gives info about the 'exit' built-in command in the shell.
  *
- * This function shows usage details and info about the behavior of the 'exit' command.
- * It explains how the 'STATUS' arg can be used to exit the shell and what happens when
+ * This function shows usage details and
+ * info about the behavior of the 'exit' command.
+ * It explains how the 'STATUS' arg can be used
+ * to exit the shell and what happens when
  * no argument is given, which defaults to 'exit 0'.
  */
 void help_exit(void)
@@ -110,13 +115,16 @@ void help_exit(void)
  * Shellby Builtin Help
  *
  * Description:
- * This function, help_help(), gives information about the Shellby shell's built-in command 'help'.
- * It gives an overview of available Shellby built-in commands and allows users to retrieve particular 
+ * This function, help_help(), gives information about the
+ * Shellby shell's built-in command 'help'.
+ * It gives an overview of available Shellby built-in commands
+ * and allows users to retrieve particular
  * info on each built-in command by providing its name as an arg.
  *
  * Usage:
  * - `help`: provides a list of all availables Shellby built-in commands.
- * - `help [BUILTIN NAME]`: displays detailed information on a built-in command.
+ * - `help [BUILTIN NAME]`: displays detailed information
+ * on a built-in command.
  */
 void help_help(void)
 {

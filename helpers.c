@@ -1,6 +1,6 @@
 /*
  * File: help.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -30,8 +30,9 @@ void free_args(char **args, char **front)
 /**
  * get_pid - Obtain the Process ID (PID) of the current process.
  * Description: This function retrieves the Process ID (PID) of the calling
- *              process by accessing system information from the '/proc/self/stat' file.
- *              It parses the contents of this file to isolate the PID, storing it
+ * process by accessing system information from
+ *|X the '/proc/self/stat' file.
+ * It parses the contents of this file to isolate the PID, storing it
  *              as a string in a dynamically allocated buffer.
  *
  * Return: A dynamically allocated string containing the current Process ID,
@@ -66,7 +67,8 @@ char *get_pid(void)
 }
 
 /**
- * get_env_value - Retrieve the value accompanied with an environmental variable.
+ * get_env_value - Retrieve the value accompanied with
+ * an environmental variable.
  * @beginning: The environmental variable name to search for.
  * @len: The length of the environmental variable name.
  *
@@ -109,7 +111,8 @@ char *get_env_value(char *beginning, int len)
  * @exe_ret: Pointer to the return value of the last executed command.
  *
  * Description:
- * This function performs dynamic variable substitution on a particular command line.
+ * This function performs dynamic variable substitution
+ * on a particular command line.
  * It replaces occurrences of $$ with the current Process ID (PID), $? with the
  * return value of the last executed program, and environmental variables
  * prefixed with $ with their corresponding values.

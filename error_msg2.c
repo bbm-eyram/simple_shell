@@ -1,6 +1,6 @@
 /*
  * File: err_msgs2.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -10,7 +10,8 @@ char *error_126(char **args);
 char *error_127(char **args);
 
 /**
- * error_126 - Constructs a descriptive error message for permission denied errors.
+ * error_126 - Constructs a descriptive error message for
+ * permission denied errors.
  * @args: An array of args passed to the command.
  *
  * Return: A dynamically allocated error message string.
@@ -47,8 +48,10 @@ char *error_126(char **args)
  * error_127 - Generates an error message for command not found scenarios.
  * @args: An array of arguments passed to the command.
  *
- * This function creates an informative error message when a command is not found
- * in the system. It includes details such as the command name, its history index,
+ * This function creates an informative error message when
+ * a command is not found
+ * in the system. It includes details such as the command name,
+ * its history index,
  * and the reason for the failure.
  *
  * Return: A dynamically allocated string containing the error message.

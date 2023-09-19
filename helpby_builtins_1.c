@@ -6,7 +6,8 @@ void help_unsetenv(void);
 void help_history(void);
 
 /**
- * help_env - Provides a concise description and useful information for the 'env' shell built-in command.
+ * help_env - Provides a concise description and
+ * useful information for the 'env' shell built-in command.
  */
 void help_env(void)
 {
@@ -16,7 +17,8 @@ void help_env(void)
 }
 
 /**
- * help_setenv - Documentation for the 'setenv' built-in command in the shellby shell.
+ * help_setenv - Documentation for the 'setenv' built-in
+ * command in the shellby shell.
  */
 void help_setenv(void)
 {

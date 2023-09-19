@@ -1,6 +1,6 @@
 /*
  * File: environ.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -54,10 +54,12 @@ char **_copyenv(void)
 /**
  * Function: free_env
  * Description: Deallocates memory used for storing environment variables.
- * 
- * This function is responsible for releasing the memory used to store environment
+ *
+ * This function is responsible for releasing the memory
+ * used to store environment
  * variables and the array that holds them. It iterates through the environment
- * variables and deallocates their memory individually before freeing the array itself.
+ * variables and deallocates their memory individually before
+ * freeing the array itself.
  */
 void free_env(void)
 {
@@ -77,8 +79,9 @@ void free_env(void)
  *
  * @var: The name of the environmental variable to retrieve.
  *
- * Return: If the environmental variable is found, a pointer to its value is returned.
- *         If the environmental variable does not exist or an error occurs - NULL.
+ * Return: If the environmental variable is found, a pointer
+ * to its value is returned.
+ *If the environmental variable does not exist or an error occurs - NULL.
  */
 char **_getenv(const char *var)
 {

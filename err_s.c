@@ -1,6 +1,6 @@
 /*
  * File: errors.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -93,10 +93,14 @@ char *_itoa(int num)
  * @return: The error code.
  *
  * Description:
- * This function processes error codes and generates corresponding custom error messages,
- * which are then written to the standard error stream (stderr). It takes an array of
- * arguments and an error code as input, and based on the error code, it selects the
- * appropriate error message generation function to call. The generated error message
+ * This function processes error codes and generates
+ * corresponding custom error messages,
+ * which are then written to the standard error stream (stderr).
+ * It takes an array of
+ * arguments and an error code as input, and based on the error code,
+ * it selects the
+ * appropriate error message generation function to call
+ * The generated error message
  * is then written to stderr.
  */
 int create_error(char **args, int err)

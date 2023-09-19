@@ -1,6 +1,6 @@
 /*
  * File: builtin.c
- * Coding Team: 
+ * Coding Team:
  *    - Ephraim Eyram (Lead Developer)
  *    - Abigail Nyakoh (Development Team Member)
  */
@@ -23,7 +23,8 @@ ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
  *
  * Return:
  *   - If new_size equals old_size, then it returns ptr.
- *   - If new_size is 0 and ptr is not NULL, then it frees ptr and returns NULL.
+ *   - If new_size is 0 and ptr is not NULL,
+ * then it frees ptr and returns NULL.
  *   - Otherwise, it returns a pointer to the reallocated memory block.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
@@ -68,7 +69,9 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * Description: This function is for managing the task of the 'lineptr' variable used in the _getline function. It handles resizing the buffer and reassigning it as needed to accommodate input data.
+ * Description: This function is for managing the task of the 'lineptr'
+ * variable used in the_getline function. It handles resizing the buffer and
+ * reassigning it as needed to accommodate input data.
  *
  * @lineptr: A buffer to store an input string.
  * @n: The current size of 'lineptr'.

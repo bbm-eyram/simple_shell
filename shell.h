@@ -12,7 +12,12 @@
  *    - Abigail Nyakoh (Development Team Member)
  */
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> master
+>>>>>>> f7193899b302ba2c55c43f6be6cd123dfa4db645
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

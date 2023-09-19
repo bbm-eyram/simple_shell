@@ -17,14 +17,6 @@
  *    - Abigail Nyakoh (Development Team Member)
  */
 
-<<<<<<< HEAD
-
-/*
- * File: my_unique_shell.h
- * Authors: Alex Yu
- *          Brennan D Baraban
- */
-
 =======
 >>>>>>> master
 #include <stdio.h>
